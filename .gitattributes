@@ -1,2 +1,70 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# =========================================
+# Language Detection for GitHub
+# =========================================
+
+# Python files
+*.py linguist-language=Python
+*.pyi linguist-language=Python
+
+# TypeScript/JavaScript files  
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.mjs linguist-language=JavaScript
+
+# CSS/Styling
+*.css linguist-language=CSS
+*.scss linguist-language=SCSS
+*.sass linguist-language=Sass
+
+# Configuration files (mark as documentation)
+*.json linguist-documentation
+*.md linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation
+
+# =========================================
+# Exclude from Language Statistics
+# =========================================
+
+# Dependencies (vendored code)
+node_modules/** linguist-vendored
+package-lock.json linguist-generated
+**/dist/** linguist-generated
+**/.next/** linguist-generated
+
+# Build outputs
+*.js.map linguist-generated
+*.d.ts linguist-generated
+*.tsbuildinfo linguist-generated
+
+# =========================================
+# File Type Declarations
+# =========================================
+
+# Text files
+*.py text
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.css text
+*.json text
+*.md text
+*.txt text
+*.yml text
+*.yaml text
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
