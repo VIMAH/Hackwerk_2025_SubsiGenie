@@ -1,0 +1,39 @@
+{
+    "requestedCredentials": [
+        "authentication",
+        "kvkNumber",
+        "statutoryName",
+        "rsin",
+        "establishmentNumber",
+        "tradeName",
+        "businessAddress",
+        "email",
+        "sbiCode",
+        "legalForm",
+        "employeeCount",
+        "iban",
+        "contactPerson",
+        "mkbDeclaration",
+        "previousExporterApplications",
+        "deMinimisRoom"
+    ],
+    "additionalInformation": [
+        "projectLocationDHI",
+        "applicantRole",
+        "applicationTypeOrConsortium",
+        "demonstration",
+        "feasibility",
+        "investmentPreparation",
+        "projectDetails",
+        "targetSector",
+        "greeningCheck",
+        "startDate",
+        "endDate",
+        "financialTurnoverMin100kLast3Years",
+        "exportMultiplierStatement",
+        "onHostLocation",
+        "exportedBefore",
+        "performedQuickScan"
+    ]
+}
+

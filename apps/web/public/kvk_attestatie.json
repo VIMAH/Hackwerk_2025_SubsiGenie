@@ -1,0 +1,191 @@
+{
+    "content": [
+        {
+            "id": 879,
+            "validFrom": "2025-10-03T04:32:33",
+            "issuanceDate": "2025-10-03T04:32:33",
+            "issuerDid": "did:web:wallet.acc.credenco.com:public:did:c0bcc109-0ca0-4360-8af3-9fda356e8fef",
+            "displayProperties": {
+                "issuerDisplay": {
+                    "displayName": "RVO",
+                    "logoUri": "https://www.rvo.nl/assets/logos/logo-nl-nowhitespace.svg",
+                    "logoAltText": ""
+                },
+                "credentialTypeDisplay": {
+                    "displayName": "MKB Verklaring",
+                    "backgroundImageUri": "https://iili.io/KV4A8vV.png",
+                    "backgroundColor": "#071170",
+                    "textColor": "#FFFFFF"
+                },
+                "credentialSubjectDisplay": {
+                    "jaarbalans": {
+                        "displayName": "jaarbalans"
+                    },
+                    "aantal_werknemers": {
+                        "displayName": "aantal werknemers"
+                    },
+                    "jaaromzet": {
+                        "displayName": "jaaromzet"
+                    }
+                }
+            },
+            "credentialSubject": {
+                "aantal_werknemers": "7",
+                "jaaromzet": "100.000",
+                "jaarbalans": "2.000",
+                "id": "did:web:wallet.acc.credenco.com:public:did:0378232c-416a-41ec-a2b1-28bc06675522"
+            },
+            "document": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1"
+                ],
+                "id": "urn:uuid:9c17d53a-33fa-4b9b-8583-f5c60fc523bb",
+                "type": [
+                    "VerifiableCredential",
+                    "MKB Verklaring"
+                ],
+                "issuer": "did:web:wallet.acc.credenco.com:public:did:c0bcc109-0ca0-4360-8af3-9fda356e8fef",
+                "issuanceDate": "2025-10-03T02:32:33.872538818Z",
+                "credentialSubject": {
+                    "aantal_werknemers": "7",
+                    "jaaromzet": "100.000",
+                    "jaarbalans": "2.000",
+                    "id": "did:web:wallet.acc.credenco.com:public:did:0378232c-416a-41ec-a2b1-28bc06675522"
+                },
+                "issued": "2025-10-03T02:32:33.872538818Z",
+                "validFrom": "2025-10-03T02:32:33.872538818Z"
+            },
+            "termsOfUse": [],
+            "status": {
+                "credentialStatus": "VALID",
+                "policyResults": []
+            },
+            "addToCompanyProfileAllowed": true,
+            "selectiveDisclosableAttributes": []
+        },
+        {
+            "id": 871,
+            "validFrom": "2025-10-02T23:47:11",
+            "issuanceDate": "2025-10-02T23:47:11",
+            "issuerDid": "did:web:mijnkvk.acc.credenco.com:did:df63abc0-2cc9-49e5-b3f8-42a824ceb9a7",
+            "displayProperties": {
+                "issuerDisplay": {
+                    "displayName": "Kamer van Koophandel",
+                    "logoUri": "https://mijnkvk.acc.credenco.com/kvk_logo.png",
+                    "logoAltText": "KvK logo"
+                },
+                "credentialTypeDisplay": {
+                    "displayName": "KVK Registratie",
+                    "backgroundImageUri": "https://mijnkvk.acc.credenco.com/kvk_card_background.png",
+                    "backgroundColor": "#21436f",
+                    "textColor": "#ffffff"
+                },
+                "credentialSubjectDisplay": {
+                    "startdatum": {
+                        "displayName": "Startdatum"
+                    },
+                    "rechtsvorm": {
+                        "displayName": "Rechtsvorm"
+                    },
+                    "ubos": {
+                        "displayName": "ubos"
+                    },
+                    "kvkNummer": {
+                        "displayName": "KVK nummer"
+                    },
+                    "einddatum": {
+                        "displayName": "Einddatum"
+                    },
+                    "naam": {
+                        "displayName": "Naam"
+                    }
+                }
+            },
+            "credentialSubject": {
+                "id": "did:web:wallet.acc.credenco.com:public:did:0378232c-416a-41ec-a2b1-28bc06675522",
+                "identifier": {
+                    "EUID": "NLNHR.4403655",
+                    "legalPersonName": "Wallicious World B.V."
+                },
+                "legalRepresentative": [
+                    {
+                        "firstName": "Klaas",
+                        "role": "Statutair bestuurder",
+                        "occupation": "uitsluitend enig aandeelhouder",
+                        "familyName": "Jansma",
+                        "homeLocation": {
+                            "streetName": "Vredenburg",
+                            "houseNumber": "40",
+                            "postalCode": "3511 BD",
+                            "city": "Utrecht"
+                        },
+                        "dateOfBirth": "1975-11-01"
+                    }
+                ],
+                "legalFormType": "Besloten Vennootschap (B.V.)"
+            },
+            "document": {
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://www.w3.org/2018/credentials/examples/v1"
+                ],
+                "id": "urn:uuid:31020966-ba27-48b3-8775-7bed35c5a4f7",
+                "type": [
+                    "VerifiableCredential",
+                    "VerifiableAttestation",
+                    "KVKRegistration"
+                ],
+                "issuer": "did:web:mijnkvk.acc.credenco.com:did:df63abc0-2cc9-49e5-b3f8-42a824ceb9a7",
+                "issued": "2025-10-02T21:47:11.412284670Z",
+                "validFrom": "2025-10-02T21:47:11.412284670Z",
+                "issuanceDate": "2025-10-02T21:47:11.412284670Z",
+                "credentialSubject": {
+                    "id": "did:web:wallet.acc.credenco.com:public:did:0378232c-416a-41ec-a2b1-28bc06675522",
+                    "identifier": {
+                        "EUID": "NLNHR.4403655",
+                        "legalPersonName": "Wallicious World B.V."
+                    },
+                    "legalRepresentative": [
+                        {
+                            "firstName": "Klaas",
+                            "role": "Statutair bestuurder",
+                            "occupation": "uitsluitend enig aandeelhouder",
+                            "familyName": "Jansma",
+                            "homeLocation": {
+                                "streetName": "Vredenburg",
+                                "houseNumber": "40",
+                                "postalCode": "3511 BD",
+                                "city": "Utrecht"
+                            },
+                            "dateOfBirth": "1975-11-01"
+                        }
+                    ],
+                    "legalFormType": "Besloten Vennootschap (B.V.)"
+                },
+                "termsOfUse": [
+                    {
+                        "id": "https://api-pilot.ebsi.eu/trusted-issuers-registry/v5/issuers/did:ebsi:zivtiw8mjYWEV8vDWodTKoj/attributes/e9c28a971ce537d5681b159b05807850163fad7f391c5271d9c5be5688ac8f68",
+                        "type": "IssuanceCertificate"
+                    }
+                ],
+                "credentialSchema": {
+                    "id": "https://api-pilot.ebsi.eu/trusted-schemas-registry/v3/schemas/0xd2204647818f9c0c93f64b70f1c892ea2a8e0a747ceaa2f77373b41996bb764d",
+                    "type": "FullJsonSchemaValidator2021"
+                }
+            },
+            "termsOfUse": [],
+            "status": {
+                "credentialStatus": "VALID",
+                "policyResults": []
+            },
+            "addToCompanyProfileAllowed": true,
+            "selectiveDisclosableAttributes": []
+        }
+    ],
+    "page": {
+        "size": 29,
+        "number": 0,
+        "totalElements": 2,
+        "totalPages": 1
+    }
+}

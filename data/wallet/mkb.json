@@ -1,0 +1,14 @@
+{
+    "id": "mkb_001",
+    "type": "MkbDeclarationCredential",
+    "issuer": "MKB",
+    "issuedAt": "2024-01-01T00:00:00Z",
+    "expiresAt": "2025-01-01T00:00:00Z",
+    "credentialSubject": {
+        "mkbDeclaration": true,
+        "companySize": "small",
+        "employeeCount": 25,
+        "annualRevenue": 5000000
+    }
+}
+

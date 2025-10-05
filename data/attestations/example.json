@@ -1,0 +1,33 @@
+{
+    "id": "attestation_001",
+    "type": "DhiSubsidyApplication",
+    "issuer": "EntrepreneurAI",
+    "issuedAt": "2024-01-01T00:00:00Z",
+    "credentialSubject": {
+        "walletCredentials": [],
+        "additionalInformation": {
+            "projectLocationDHI": "Amsterdam",
+            "applicantRole": "primary",
+            "applicationTypeOrConsortium": "individual",
+            "demonstration": "Innovative AI solution for export optimization",
+            "feasibility": "High - proven technology with market demand",
+            "investmentPreparation": "Business plan and financial projections completed",
+            "projectDetails": "Development of AI-powered export platform",
+            "targetSector": "Technology",
+            "greeningCheck": true,
+            "startDate": "2024-06-01",
+            "endDate": "2025-05-31",
+            "financialTurnoverMin100kLast3Years": true,
+            "exportMultiplierStatement": "Platform will enable 10x export growth",
+            "onHostLocation": true,
+            "exportedBefore": true,
+            "performedQuickScan": true
+        },
+        "applicationId": "app_001"
+    },
+    "proof": {
+        "type": "JwtProof2020",
+        "jwt": "demo-jwt-token"
+    }
+}
+

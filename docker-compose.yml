@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./apps/backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - RVO_API_URL=${RVO_API_URL:-https://api.rvo.nl}
+      - RVO_API_KEY=${RVO_API_KEY:-demo-rvo-key}
+    volumes:
+      - ./data:/app/data
+      - ./apps/backend:/app
+    command: python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      - frontend
+
+  frontend:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+    volumes:
+      - ./apps/web:/app
+      - /app/node_modules
+      - /app/.next
+    command: npm run dev
+    depends_on:
+      - backend
+
+  # Optional: Add a database service for production
+  # postgres:
+  #   image: postgres:15
+  #   environment:
+  #     POSTGRES_DB: entrepreneur_ai
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: password
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   ports:
+  #     - "5432:5432"
+# volumes:
+#   postgres_data:
+

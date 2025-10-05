@@ -1,0 +1,14 @@
+{
+    "id": "deminimis_001",
+    "type": "DeMinimisCredential",
+    "issuer": "EU",
+    "issuedAt": "2024-01-01T00:00:00Z",
+    "expiresAt": "2025-01-01T00:00:00Z",
+    "credentialSubject": {
+        "deMinimisRoom": 150000,
+        "usedAmount": 50000,
+        "availableAmount": 100000,
+        "lastUpdated": "2024-01-01T00:00:00Z"
+    }
+}
+

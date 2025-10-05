@@ -1,0 +1,31 @@
+{
+    "id": "business_001",
+    "type": "BusinessCredential",
+    "issuer": "KVK",
+    "issuedAt": "2024-01-01T00:00:00Z",
+    "expiresAt": "2025-01-01T00:00:00Z",
+    "credentialSubject": {
+        "kvkNumber": "12345678",
+        "statutoryName": "Demo Company BV",
+        "rsin": "123456789",
+        "establishmentNumber": "00001234567890",
+        "tradeName": "Demo Company",
+        "businessAddress": {
+            "street": "Demo Street 123",
+            "city": "Amsterdam",
+            "postalCode": "1000AB",
+            "country": "Netherlands"
+        },
+        "email": "contact@democompany.nl",
+        "sbiCode": "62010",
+        "legalForm": "BV",
+        "employeeCount": 25,
+        "iban": "NL91ABNA0417164300",
+        "contactPerson": {
+            "name": "John Doe",
+            "email": "john@democompany.nl",
+            "phone": "+31612345678"
+        }
+    }
+}
+
